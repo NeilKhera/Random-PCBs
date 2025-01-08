@@ -1,0 +1,197 @@
+(footprint "ABXY-Button"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.2258 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "77b635a0-f847-4c0c-838c-a1d5b83c36b0")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "ABXY-Button"
+		(at 0 3.6068 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fa617a1-67be-4af2-b6f1-4c2d3e4ab20a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ABXY-Button"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e270d0f7-f97b-4c37-9c58-f0404502b192")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7c3e32e-cf52-43b1-b0b0-e780fc455351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7cdbae4-f3a5-4c73-a6cb-2bd579a99cd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b3bd782b-ecbf-47e7-ae4b-05977f6b1843")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.3114 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "46f88cae-c26f-4568-918a-160fd8001de7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.604 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aff25b81-efb1-46ad-9084-aeb672c8e487")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 2.1082)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start -0.000001 -1.397)
+				(end 0 0)
+				(width 0.3556)
+			)
+			(gr_line
+				(start -0.254 -2.1082)
+				(end 0 -1.397)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start 0.563714 -2.541826)
+				(mid 0.638044 -1.794026)
+				(end 0 -1.397)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start 0 -0.9398)
+				(mid -1.14571 -1.879058)
+				(end -0.449385 -3.186723)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start 0.531751 -3.644369)
+				(mid 1.603086 -1.838591)
+				(end 0 -0.4826)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start 0 0)
+				(mid -2.091063 -1.839941)
+				(end -0.532156 -4.148131)
+				(width 0.3556)
+			)
+		)
+		(uuid "6fea71ed-f3a4-4271-b2aa-f0492f41e456")
+	)
+	(pad "2" smd custom
+		(at 0 -2.1082)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 0 0)
+				(mid 2.091063 1.839941)
+				(end 0.532156 4.148131)
+				(width 0.3556)
+			)
+			(gr_line
+				(start -0.000001 0)
+				(end 0 1.397)
+				(width 0.3556)
+			)
+			(gr_line
+				(start 0.254 2.1082)
+				(end 0 1.397)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start -0.563714 2.541826)
+				(mid -0.638044 1.794026)
+				(end 0 1.397)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start 0 0.9398)
+				(mid 1.14571 1.879058)
+				(end 0.449385 3.186723)
+				(width 0.3048)
+			)
+			(gr_arc
+				(start -0.531751 3.644369)
+				(mid -1.603086 1.838591)
+				(end 0 0.4826)
+				(width 0.3048)
+			)
+		)
+		(uuid "a4afccde-3e2a-45cb-9d5a-d976d478531e")
+	)
+)

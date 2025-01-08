@@ -1,0 +1,108 @@
+(footprint "Motor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "12716b3d-9ad8-4cad-b3cd-f9ce5daf6a7c")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Motor"
+		(at 0 4.375 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27be9e5c-cf78-4857-84b9-7b436646ab0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Motor"
+		(at 0 3.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c26fcc4-de2f-49c4-9b4e-236bfa344009")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5752994-344e-428b-b923-2af9bbfd86c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b48cc7b7-daaa-4f4e-8475-9c5ac8d006d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.15 -2.275)
+		(end 3.15 2.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8641008d-2250-4361-ac4e-a60a2573ebbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.825 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae1085a5-d10c-4624-afaf-59afcac1b231")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.075)
+		(size 6.1 2.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f3803db0-4745-45ea-9663-9f1976c3b51c")
+	)
+	(pad "2" smd rect
+		(at 0 1.55375)
+		(size 6.1 1.575)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "907319a2-43ad-48e3-93a7-16cbcbfaaa78")
+	)
+)
